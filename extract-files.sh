@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=oneplus7t
+DEVICE=oneplus7tpro
 VENDOR=oneplus
 
 # Load extractutils and do some sanity checks

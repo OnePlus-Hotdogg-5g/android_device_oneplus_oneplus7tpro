@@ -1,8 +1,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/device.mk \
-    $(LOCAL_DIR)/omni_oneplus7t.mk
+    $(LOCAL_DIR)/omni_oneplus7tpro.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_oneplus7t-user \
-    omni_oneplus7t-userdebug \
-    omni_oneplus7t-eng \
+    omni_oneplus7tpro-user \
+    omni_oneplus7tpro-userdebug \
+    omni_oneplus7tpro-eng \

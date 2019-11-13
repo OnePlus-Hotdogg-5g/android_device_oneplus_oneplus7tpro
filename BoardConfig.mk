@@ -18,13 +18,13 @@
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps).
 #
-DEVICE_PATH := device/oneplus/oneplus7t
+DEVICE_PATH := device/oneplus/oneplus7tpro
 
-ifeq ($(TARGET_DEVICE),oneplus7t)
-TARGET_OTA_ASSERT_DEVICE := OnePlus7T
+ifeq ($(TARGET_DEVICE),oneplus7tpro)
+TARGET_OTA_ASSERT_DEVICE := OnePlus7Tpro
 endif
 
-ifeq ($(TARGET_DEVICE),oneplus7t)
+ifeq ($(TARGET_DEVICE),oneplus7tpro)
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 endif
 

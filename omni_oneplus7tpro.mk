@@ -54,7 +54,7 @@ BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 TARGET_BOOTANIMATION_SIZE := 1080p
 AB_OTA_UPDATER := true
 
-DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7t/overlay/device
+DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7tpro/overlay/device
 DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7pro/overlay/common
 DEVICE_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
 
@@ -65,21 +65,21 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/mainline_system_arm64.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/oneplus/oneplus7t/device.mk)
+$(call inherit-product, device/oneplus/oneplus7tpro/device.mk)
 
 ALLOW_MISSING_DEPENDENCIES := true
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_oneplus7t
-PRODUCT_DEVICE := oneplus7t
+PRODUCT_NAME := omni_oneplus7tpro
+PRODUCT_DEVICE := oneplus7tpro
 PRODUCT_BRAND := OnePlus
 PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_MODEL := HD1903
+PRODUCT_MODEL := HD1913
 
-TARGET_DEVICE := OnePlus7T
-PRODUCT_SYSTEM_NAME := OnePlus7T
+TARGET_DEVICE := OnePlus7Tpro
+PRODUCT_SYSTEM_NAME := "'OnePlus7T Pro'"
 
 VENDOR_RELEASE := 10/QKQ1.190716.003/1910122101:user/release-keys
 BUILD_FINGERPRINT := OnePlus/OnePlus7T_EEA/OnePlus7T:$(VENDOR_RELEASE)
@@ -90,4 +90,4 @@ PLATFORM_SECURITY_PATCH_OVERRIDE := 2019-09-05
 
 TARGET_VENDOR := oneplus
 
-$(call inherit-product, vendor/oneplus/oneplus7t/oneplus7t-vendor.mk)
+$(call inherit-product, vendor/oneplus/oneplus7tpro/oneplus7tpro-vendor.mk)
