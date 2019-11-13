@@ -292,7 +292,7 @@ etc/nfcee_access.xml
 
 -priv-app/OPNetworkSetting/OPNetworkSetting.apk
 
-sbin/dashd;system/sbin/dashd
+sbin/dashd;rootfs/sbin/dashd
 
 lib64/libbtconfigstore.so
 
