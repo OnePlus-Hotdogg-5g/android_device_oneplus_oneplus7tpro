@@ -294,10 +294,10 @@ etc/nfcee_access.xml
 
 sbin/dashd;system/sbin/dashd
 
-
 lib64/libbtconfigstore.so
-lib64/libaptXHD_encoder.so
-lib64/libaptX_encoder.so
+
+lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
+lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
 
 -priv-app/WfdService/WfdService.apk
 -framework/WfdCommon.jar
