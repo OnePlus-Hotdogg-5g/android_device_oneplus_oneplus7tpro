@@ -54,6 +54,7 @@ BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 TARGET_BOOTANIMATION_SIZE := 1080p
 AB_OTA_UPDATER := true
 
+DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7tpro/overlay/device
 DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7pro/overlay/device
 DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus7pro/overlay/common
 DEVICE_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
@@ -78,8 +79,8 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := HD1913
 
-TARGET_DEVICE := OnePlus7Tpro
-PRODUCT_SYSTEM_NAME := "'OnePlus7T Pro'"
+TARGET_DEVICE := OnePlus7TPro
+PRODUCT_SYSTEM_NAME := OnePlus7TPro
 
 VENDOR_RELEASE := 10/QKQ1.190716.003/1910120055:user/release-keys
 BUILD_FINGERPRINT := OnePlus/OnePlus7TPro_EEA/OnePlus7TPro:$(VENDOR_RELEASE)
