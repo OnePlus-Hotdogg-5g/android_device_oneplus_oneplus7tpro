@@ -274,4 +274,4 @@ ro.vibrator.hal.click.duration=0
 ro.vibrator.hal.heavyclick.duration=10
 
 #HWC
-persist.vendor.color.matrix=2
+#persist.vendor.color.matrix=2
