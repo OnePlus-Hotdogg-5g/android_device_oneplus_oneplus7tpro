@@ -66,6 +66,7 @@ product/lib64/lib-imsvtextutils.so
 product/lib64/lib-imsvt.so
 product/lib64/lib-imsvtutils.so
 product/lib/libsecureui_svcsock_system.so
+product/lib/libsecureuisvc_jni.so
 product/lib/libGPTEE_system.qti.so
 product/lib/libQTEEConnector_system.so
 product/lib/libGPQTEEC_system.qti.so
@@ -108,6 +109,7 @@ product/lib64/vendor.qti.ims.rcsconfig@1.0.so
 product/lib64/vendor.qti.imsrtpservice@2.0.so
 product/lib64/vendor.qti.voiceprint@1.0.so
 product/lib64/libsecureui_svcsock_system.so
+product/lib64/libsecureuisvc_jni.so
 product/lib64/libGPTEE_system.qti.so
 product/lib64/libQTEEConnector_system.so
 product/lib64/libGPQTEEC_system.qti.so
