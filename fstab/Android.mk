@@ -1,3 +1,5 @@
+ifeq ($(TARGET_DEVICE),$(filter $(TARGET_DEVICE),oneplus7tpro))
+
 LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -12,4 +14,4 @@ LOCAL_MODULE_PATH := $(TARGET_RAMDISK_OUT)
 endif
 
 include $(BUILD_PREBUILT)
-
+endif

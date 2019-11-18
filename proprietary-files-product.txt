@@ -1,5 +1,6 @@
 -product/framework/qcrilhook.jar
--product/framework/qti-telephony-common.jar|0276ff16476d85eac9b0b5e1d600ce94ac91b8da
+-product/framework/qti-telephony-common.jar|4a2721b2c26905cd4ecd292fdb248d2b9654ef7f
+-product/framework/op-telephony-common.jar
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -product/app/QtiSystemService/QtiSystemService.apk
@@ -73,6 +74,8 @@ product/lib/libGPQTEEC_system.qti.so
 product/lib64/libsdm-disp-apis.qti.so
 product/lib64/vendor.display.color@1.0.so
 product/lib64/vendor.display.color@1.1.so
+product/lib64/vendor.display.color@1.2.so
+product/lib64/vendor.display.color@1.3.so
 product/lib64/vendor.display.postproc@1.0.so
 product/lib64/vendor.qti.gnss@1.0.so
 product/lib64/vendor.qti.gnss@1.1.so
@@ -132,6 +135,8 @@ product/lib/lib-imsvtutils.so
 product/lib/libsdm-disp-apis.qti.so
 product/lib/vendor.display.color@1.0.so
 product/lib/vendor.display.color@1.1.so
+product/lib/vendor.display.color@1.2.so
+product/lib/vendor.display.color@1.3.so
 product/lib/vendor.display.postproc@1.0.so
 product/lib/vendor.qti.gnss@1.0.so
 product/lib/vendor.qti.gnss@1.1.so
@@ -205,4 +210,7 @@ product/etc/permissions/lpa.xml
 -product/app/colorservice/colorservice.apk
 -product/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
 -product/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk
+
+product/etc/permissions/com.dolby.daxservice.xml
+-product/priv-app/daxService/daxService.apk
 

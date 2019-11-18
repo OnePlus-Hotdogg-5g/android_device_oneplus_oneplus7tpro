@@ -108,7 +108,7 @@ etc/sensors/proto/sns_wrist_tilt_gesture.proto
 etc/wfdconfigsink.xml
 etc/voicemail-conf.xml
 framework/audiosphere.jar
-framework/izat.xt.srv.jar
+-framework/izat.xt.srv.jar
 lib64/libadsprpc_system.so
 lib64/libmdsprpc_system.so
 lib64/libantradio.so
@@ -309,3 +309,5 @@ lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
 -priv-app/OnePlusCameraService/OnePlusCameraService.apk
 -priv-app/OnePlusGallery/OnePlusGallery.apk
 
+etc/permissions/com.qti.location.sdk.xml
+-framework/com.qti.location.sdk.jar

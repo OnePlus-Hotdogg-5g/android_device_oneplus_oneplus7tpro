@@ -250,14 +250,20 @@ persist.netmon.linger=5000
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 #endif
 #endif
+
+# ifdef VENDOR_EDIT
+# clark.lei@Connectivity, 2019/09/25, add for solve audio crash
+persist.vendor.bt.a2dp.hal.implementation=true
+# endif
 # end of vendor/oneplus/config/msmnile/system.prop
 
 #omni
 ro.surface_flinger.protected_contents=true
 ro.surface_flinger.use_smart_90_for_video=true
-ro.surface_flinger.set_display_power_timer_ms=10000
+ro.surface_flinger.set_display_power_timer_ms=0
 ro.surface_flinger.set_touch_timer_ms=5000
-ro.surface_flinger.set_idle_timer_ms=9000
+ro.surface_flinger.set_idle_timer_ms=0
+
 persist.fod.night_mode_disabled=true
 ro.vendor.qti.va_aosp.support=1
 ro.apex.updatable=true
@@ -266,7 +272,7 @@ ro.boot.project_name=19801
 ro.vendor.boot.project_name=19801
 persist.vendor.cne.feature=1
 
-persist.sys.camera.preview.size=1920x1080
+#persist.sys.camera.preview.size=1920x1080
 
 persist.vendor.radio.aosp_usr_pref_sel=true
 persist.vendor.radio.add_power_save=false
@@ -274,10 +280,6 @@ persist.vendor.radio.add_power_save=false
 sdm.debug.disable_inline_rotator=1
 sdm.debug.disable_inline_rotator_secure=1
 persist.vendor.diag.max.size=500
-
-ro.vibrator.hal.tick.duration=0
-ro.vibrator.hal.click.duration=0
-ro.vibrator.hal.heavyclick.duration=10
 
 #HWC
 #persist.vendor.color.matrix=2

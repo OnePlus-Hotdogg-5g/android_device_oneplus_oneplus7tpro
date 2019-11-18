@@ -52,44 +52,39 @@
         <item>14000</item>
     </integer-array>
     <integer-array name="config_ambientBrighteningThresholds">
-        <item>1000</item> <!-- 1 -->
-        <item>1000</item> <!-- 4 -->
-        <item>1000</item> <!-- 12 -->
-        <item>1000</item> <!-- 20 -->
-        <item>1000</item> <!-- 40 -->
-        <item>1000</item> <!-- 65 -->
-        <item>1000</item> <!-- 90 -->
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
+        <item>77000</item> <!-- 1 -->
+        <item>77000</item> <!-- 4 -->
+        <item>77000</item> <!-- 12 -->
+        <item>77000</item> <!-- 20 -->
+        <item>77000</item> <!-- 40 -->
+        <item>77000</item> <!-- 65 -->
+        <item>77000</item> <!-- 90 -->
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
     </integer-array>
     <integer-array name="config_ambientDarkeningThresholds">
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
-        <item>1000</item>
+        <item>77000</item>
+        <item>77000</item>
+        <item>77000</item>
+        <item>77000</item>
+        <item>77000</item>
+        <item>77000</item>
+        <item>77000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
     </integer-array>
-
-    <!-- Whether or not to skip the initial brightness ramps when the display transitions to
-         STATE_ON. Setting this to true will skip the brightness ramp to the last stored active
-         brightness value and will repeat for the following ramp if autobrightness is enabled. -->
-    <bool name="config_skipScreenOnBrightnessRamp">true</bool>
 
     <!-- Initial light sensor event rate in milliseconds for automatic brightness control. This is
          used for obtaining the first light sample when the device stops dozing.
