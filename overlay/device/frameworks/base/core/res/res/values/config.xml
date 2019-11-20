@@ -19,62 +19,62 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>4</item>
-        <item>12</item>
+        <item>5</item>
+        <item>10</item>
         <item>20</item>
         <item>40</item>
-        <item>65</item>
-        <item>95</item>
-        <item>140</item>
-        <item>200</item>
-        <item>500</item>
-        <item>1000</item>
-        <item>3000</item>
-        <item>7000</item>
+        <item>80</item>
+        <item>160</item>
+        <item>320</item>
+        <item>640</item>
+        <item>1280</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>6000</item>
+        <item>9000</item>
         <item>14000</item>
         <item>20000</item>
     </integer-array>
     <integer-array name="config_ambientThresholdLevels">
-        <item>1</item>
-        <item>4</item>
-        <item>12</item>
+        <item>5</item>
+        <item>10</item>
         <item>20</item>
         <item>40</item>
-        <item>65</item>
-        <item>95</item>
-        <item>140</item>
-        <item>200</item>
-        <item>500</item>
-        <item>1000</item>
-        <item>3000</item>
-        <item>7000</item>
+        <item>80</item>
+        <item>160</item>
+        <item>320</item>
+        <item>640</item>
+        <item>1280</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>6000</item>
+        <item>9000</item>
         <item>14000</item>
     </integer-array>
     <integer-array name="config_ambientBrighteningThresholds">
-        <item>10000</item> <!-- 1 -->
-        <item>10000</item> <!-- 4 -->
-        <item>10000</item> <!-- 12 -->
-        <item>8000</item> <!-- 20 -->
-        <item>7500</item> <!-- 40 -->
-        <item>7500</item> <!-- 65 -->
-        <item>5000</item> <!-- 90 -->
-        <item>2000</item>
-        <item>2000</item>
-        <item>2000</item>
-        <item>2000</item>
-        <item>1500</item>
-        <item>1500</item>
+        <item>1000</item> <!-- 1 -->
+        <item>1000</item> <!-- 4 -->
+        <item>1000</item> <!-- 12 -->
+        <item>1000</item> <!-- 20 -->
+        <item>1000</item> <!-- 40 -->
+        <item>1000</item> <!-- 65 -->
+        <item>1000</item> <!-- 90 -->
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
         <item>1000</item>
         <item>1000</item>
     </integer-array>
     <integer-array name="config_ambientDarkeningThresholds">
-        <item>10000</item>
-        <item>10000</item>
-        <item>9000</item>
-        <item>8000</item>
-        <item>6000</item>
-        <item>5000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>1000</item>
         <item>1000</item>
         <item>1000</item>
         <item>1000</item>
@@ -85,4 +85,21 @@
         <item>1000</item>
         <item>1000</item>
     </integer-array>
+
+    <!-- Whether or not to skip the initial brightness ramps when the display transitions to
+         STATE_ON. Setting this to true will skip the brightness ramp to the last stored active
+         brightness value and will repeat for the following ramp if autobrightness is enabled. -->
+    <bool name="config_skipScreenOnBrightnessRamp">true</bool>
+
+    <!-- Initial light sensor event rate in milliseconds for automatic brightness control. This is
+         used for obtaining the first light sample when the device stops dozing.
+
+         Set this to -1 to disable this feature. -->
+    <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
+
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">157px</dimen>
+
+    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
+    <dimen name="rounded_corner_radius_adjustment">25px</dimen>
 </resources>
