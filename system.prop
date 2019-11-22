@@ -253,6 +253,7 @@ persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 # end of vendor/oneplus/config/msmnile/system.prop
 
 #omni
+persist.fod.night_mode_disabled=true
 ro.vendor.qti.va_aosp.support=1
 ro.apex.updatable=true
 ro.camera.notify_nfc=0
