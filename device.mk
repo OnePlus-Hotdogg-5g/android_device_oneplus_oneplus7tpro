@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += fstab.qcom
 
+PRODUCT_PACKAGES += \
+    omni.biometrics.fingerprint.inscreen@1.0-service.oneplus7pro
+
+
 $(call inherit-product, device/oneplus/oneplus7pro/device.mk)
 
 AB_OTA_PARTITIONS += \
