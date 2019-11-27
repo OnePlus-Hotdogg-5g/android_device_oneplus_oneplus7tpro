@@ -42,7 +42,15 @@ BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
 BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 7511998464
 BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system \
-    product \
+    product
+
+# tell update_engine to not change dynamic partition table during updates
+# needed since our qti_dynamic_partitions does not include
+# vendor and odm and we also dont want to AB update them
+TARGET_ENFORCE_AB_OTA_PARTITION_LIST := true
+
+# enable to generate super_empy.img if needed to wipe super partition table
+#BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST += \
     vendor \
     odm
 
