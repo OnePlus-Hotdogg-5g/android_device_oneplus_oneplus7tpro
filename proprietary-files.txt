@@ -290,8 +290,6 @@ lib64/libnxpnfc-nci.so
 lib/libnxpnfc-nci.so
 etc/nfcee_access.xml
 
--priv-app/OPNetworkSetting/OPNetworkSetting.apk
-
 -sbin/dashd;rootfs
 
 lib64/libbtconfigstore.so
